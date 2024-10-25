@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="FluentValidation" Version="11.10.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Asignatura\Delete\" />
+    <Folder Include="Asignatura\GetAll\" />
+    <Folder Include="Asignatura\GetById\" />
+    <Folder Include="Asignatura\Update\" />
+    <Folder Include="Estudiante\Delete\" />
+    <Folder Include="Estudiante\GetAllById\" />
+    <Folder Include="Estudiante\GetAll\" />
+    <Folder Include="Estudiante\Update\" />
+    <Folder Include="Materia\Delete\" />
+    <Folder Include="Materia\GetAll\" />
+    <Folder Include="Materia\GetById\" />
+    <Folder Include="Materia\Update\" />
+    <Folder Include="NotaAlumno\Delete\" />
+    <Folder Include="NotaAlumno\GetAll\" />
+    <Folder Include="NotaAlumno\GetById\" />
+    <Folder Include="NotaAlumno\Update\" />
+    <Folder Include="Profesor\Delete\" />
+    <Folder Include="Profesor\GetAll\" />
+    <Folder Include="Profesor\GetById\" />
+    <Folder Include="Profesor\Update\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
